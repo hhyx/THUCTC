@@ -25,6 +25,16 @@ THUCTC(THU Chinese Text Classification)是由清华大学自然语言处理实�
 
 	使用命令 `java -jar THUCTC_java_v1.jar + 程序参数`
 
+3. 编译运行：
+~~~
+	mkdir -p bin
+	find src -name "*.java" > sources.txt
+	# 修改Demo.java中的参数
+	javac -cp "lib/*" -d bin @sources.txt
+
+	java -cp "bin:lib/*" Demo
+~~~
+
 #### 运行参数 
 
 * [-c CATEGORY_LIST_FILE_PATH] 从文件中读入类别信息。该文件中每行包含且仅包含一个类别名称。 

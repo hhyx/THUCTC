@@ -1,0 +1,352 @@
+--------------------------------
+Category List:
+0               家居
+1               时尚
+2               教育
+3               彩票
+4               体育
+5               娱乐
+6               游戏
+7               财经
+8               科技
+9               房产
+10              社会
+11              星座
+12              时政
+13              股票
+--------------------------------
+Apr 21, 2025 4:14:55 PM org.thunlp.language.english.EnglishWordSegment loadStopwords
+WARNING: Property 'wordsegment.stopwords.en.file' is not valid, will use default word list instead.
+selectFeatureBySTS : featureSize = 6757076; kept = 5000; ndocs = 585261; nclasses = 14; longestDoc = 4149
+scanned 1
+scanned 10001
+scanned 20001
+scanned 30001
+scanned 40001
+scanned 50001
+scanned 60001
+scanned 70001
+scanned 80001
+scanned 90001
+scanned 100001
+scanned 110001
+scanned 120001
+scanned 130001
+scanned 140001
+scanned 150001
+scanned 160001
+scanned 170001
+scanned 180001
+scanned 190001
+scanned 200001
+scanned 210001
+scanned 220001
+scanned 230001
+scanned 240001
+scanned 250001
+scanned 260001
+scanned 270001
+scanned 280001
+scanned 290001
+scanned 300001
+scanned 310001
+scanned 320001
+scanned 330001
+scanned 340001
+scanned 350001
+scanned 360001
+scanned 370001
+scanned 380001
+scanned 390001
+scanned 400001
+scanned 410001
+scanned 420001
+scanned 430001
+scanned 440001
+scanned 450001
+scanned 460001
+scanned 470001
+scanned 480001
+scanned 490001
+scanned 500001
+scanned 510001
+scanned 520001
+scanned 530001
+scanned 540001
+scanned 550001
+scanned 560001
+scanned 570001
+scanned 580001
+start chi-square calculation
+store features...=======================================
+5000
+end store features...=======================================
+generating feature map
+feature selection complete
+scanned 1
+scanned 10001
+scanned 20001
+scanned 30001
+scanned 40001
+scanned 50001
+scanned 60001
+scanned 70001
+scanned 80001
+scanned 90001
+scanned 100001
+scanned 110001
+scanned 120001
+scanned 130001
+scanned 140001
+scanned 150001
+scanned 160001
+scanned 170001
+scanned 180001
+scanned 190001
+scanned 200001
+scanned 210001
+scanned 220001
+scanned 230001
+scanned 240001
+scanned 250001
+scanned 260001
+scanned 270001
+scanned 280001
+scanned 290001
+scanned 300001
+scanned 310001
+scanned 320001
+scanned 330001
+scanned 340001
+scanned 350001
+scanned 360001
+scanned 370001
+scanned 380001
+scanned 390001
+scanned 400001
+scanned 410001
+scanned 420001
+scanned 430001
+scanned 440001
+scanned 450001
+scanned 460001
+scanned 470001
+scanned 480001
+scanned 490001
+scanned 500001
+scanned 510001
+scanned 520001
+scanned 530001
+scanned 540001
+scanned 550001
+scanned 560001
+scanned 570001
+scanned 580001
+max index: -------------------------------------: 5000
+liblinear problem created
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 2
+iter   7  #CD cycles 1
+iter   8  #CD cycles 3
+iter   9  #CD cycles 1
+=========================
+optimization finished, #iter = 9
+Objective value = 4828542.202052
+#nonzeros/#features = 4988/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 1
+iter   7  #CD cycles 4
+iter   8  #CD cycles 2
+iter   9  #CD cycles 1
+iter  10  #CD cycles 5
+iter  11  #CD cycles 4
+=========================
+optimization finished, #iter = 11
+Objective value = 1704308.197399
+#nonzeros/#features = 4942/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 2
+iter   7  #CD cycles 1
+iter   8  #CD cycles 2
+iter   9  #CD cycles 1
+=========================
+optimization finished, #iter = 9
+Objective value = 5030122.182945
+#nonzeros/#features = 4981/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 1
+iter   7  #CD cycles 3
+iter   8  #CD cycles 2
+iter   9  #CD cycles 1
+iter  10  #CD cycles 5
+iter  11  #CD cycles 4
+iter  12  #CD cycles 1
+=========================
+optimization finished, #iter = 12
+Objective value = 487760.855265
+#nonzeros/#features = 4940/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 2
+iter   7  #CD cycles 1
+iter   8  #CD cycles 3
+=========================
+optimization finished, #iter = 8
+Objective value = 4055426.218072
+#nonzeros/#features = 4984/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 3
+iter   7  #CD cycles 1
+iter   8  #CD cycles 4
+=========================
+optimization finished, #iter = 8
+Objective value = 7658313.382916
+#nonzeros/#features = 4985/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 2
+iter   7  #CD cycles 1
+iter   8  #CD cycles 2
+iter   9  #CD cycles 1
+iter  10  #CD cycles 6
+=========================
+optimization finished, #iter = 10
+Objective value = 3557191.507668
+#nonzeros/#features = 4975/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 2
+iter   7  #CD cycles 1
+iter   8  #CD cycles 4
+iter   9  #CD cycles 1
+=========================
+optimization finished, #iter = 9
+Objective value = 9152984.561230
+#nonzeros/#features = 4989/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 3
+iter   7  #CD cycles 1
+=========================
+optimization finished, #iter = 7
+Objective value = 20492682.038638
+#nonzeros/#features = 4994/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 3
+iter   7  #CD cycles 1
+iter   8  #CD cycles 2
+iter   9  #CD cycles 1
+iter  10  #CD cycles 6
+iter  11  #CD cycles 4
+=========================
+optimization finished, #iter = 11
+Objective value = 543527.903231
+#nonzeros/#features = 4944/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 2
+iter   7  #CD cycles 1
+iter   8  #CD cycles 4
+iter   9  #CD cycles 1
+=========================
+optimization finished, #iter = 9
+Objective value = 11537319.668697
+#nonzeros/#features = 4992/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 1
+iter   7  #CD cycles 2
+iter   8  #CD cycles 1
+iter   9  #CD cycles 4
+iter  10  #CD cycles 3
+iter  11  #CD cycles 1
+iter  12  #CD cycles 5
+iter  13  #CD cycles 3
+=========================
+optimization finished, #iter = 13
+Objective value = 98512.199671
+#nonzeros/#features = 4417/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 2
+iter   7  #CD cycles 1
+iter   8  #CD cycles 4
+=========================
+optimization finished, #iter = 8
+Objective value = 11951902.777939
+#nonzeros/#features = 4991/5000
+iter   1  #CD cycles 1
+iter   2  #CD cycles 1
+iter   3  #CD cycles 1
+iter   4  #CD cycles 1
+iter   5  #CD cycles 1
+iter   6  #CD cycles 3
+iter   7  #CD cycles 1
+=========================
+optimization finished, #iter = 7
+Objective value = 16244593.893003
+#nonzeros/#features = 4994/5000
+TRAINING COMPLETE=========================================================================================
+家居: Precision: 0.9143071643071643 Recall: 0.8721227621483376 FMeasure: 0.8927168961725745
+时尚: Precision: 0.8829813664596273 Recall: 0.886284289276808 FMeasure: 0.8846297448662104
+教育: Precision: 0.9419053749597682 Recall: 0.9305246422893482 FMeasure: 0.9361804222648753
+彩票: Precision: 0.9041157847127996 Recall: 0.8782952548330404 FMeasure: 0.8910184978827724
+体育: Precision: 0.986540845498014 Recall: 0.9876902814011803 FMeasure: 0.9871152288375861
+娱乐: Precision: 0.9525894287239722 Recall: 0.9630789161178884 FMeasure: 0.9578054541550356
+游戏: Precision: 0.932316899401539 Recall: 0.8949528108329914 FMeasure: 0.9132528438830345
+财经: Precision: 0.8982634956587392 Recall: 0.8552430586755324 FMeasure: 0.8762255466052934
+科技: Precision: 0.9384596461737151 Recall: 0.9365972421130161 FMeasure: 0.9375275192250586
+房产: Precision: 0.9802864363942713 Recall: 0.9672485453034081 FMeasure: 0.973723849372385
+社会: Precision: 0.8649233314245721 Recall: 0.8911760849613216 FMeasure: 0.8778534758322303
+星座: Precision: 0.8727436823104693 Recall: 0.9012115563839702 FMeasure: 0.8867491976157725
+时政: Precision: 0.8879691516709511 Recall: 0.9126023778071334 FMeasure: 0.9001172638436482
+股票: Precision: 0.9455150214592275 Recall: 0.9512511064573933 FMeasure: 0.948374390598263
+Test set size: 250815
+[MacroAverage]:  Precision: 0.9216369735110594 Recall: 0.9163056377572405 FMeasure: 0.918963573308683
+[MicroAverage]: 0.9373163487032274
+Testing time consumed: 180.392 s
