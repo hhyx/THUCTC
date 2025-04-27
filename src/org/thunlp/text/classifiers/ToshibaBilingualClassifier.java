@@ -229,7 +229,7 @@ public class ToshibaBilingualClassifier extends BasicTextClassifier{
 			try {
 				argsWriter = new TextFileWriter(saveModelPath + File.separator + "maxFeatures", encoding);
 				argsWriter.write("");
-				argsWriter.write(new Integer(maxFeatures).toString());
+				argsWriter.write(Integer.toString(maxFeatures));
 				argsWriter.close();
 			} catch (IOException e) {
 				e.printStackTrace();

@@ -750,7 +750,7 @@ public class BasicTextClassifier{
 			TextFileWriter argsWriter;
 			try {
 				argsWriter = new TextFileWriter(saveModelPath + File.separator + "maxFeatures", encoding);
-				argsWriter.write("" + new Integer(maxFeatures).toString());
+				argsWriter.write(Integer.toString(maxFeatures));
 				argsWriter.close();
 			} catch (IOException e) {
 				e.printStackTrace();

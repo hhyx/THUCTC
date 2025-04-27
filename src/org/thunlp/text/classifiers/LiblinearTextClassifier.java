@@ -31,7 +31,6 @@ import libsvm.svm_parameter;
 import libsvm.svm_problem;
 
 import de.bwaldvogel.liblinear.*;
-import de.bwaldvogel.*;
 
 import org.apache.commons.codec.binary.Base64;
 import org.thunlp.io.TextFileWriter;

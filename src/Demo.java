@@ -26,7 +26,7 @@ public class Demo {
 
 		String defaultArguments = ""
 			+ "-test /dfs/THUCNews " 
-			// + "-test /sharenvme/usershome/hyx/data/THUCNews/THUCNews "
+			// + "-test /sharenvme/usershome/hyx/data/THUCNews "
 			+ "-l /sharenvme/usershome/hyx/THUCTC/my_novel_model "
 			+ "-d2 1.0 "
 			;
