@@ -9,7 +9,7 @@ public class Demo {
 	 * 如果需要对一批文本进行训练，再进行测试，可以按照本函数的代码调用分类器
 	 * 
 	 */
-	public static void runTrainAndTest() {
+	public static void runTrainAndTest(String modelDir, double d2) {
 		
 		// 新建分类器对象
 		BasicTextClassifier classifier = new BasicTextClassifier();
@@ -25,10 +25,9 @@ public class Demo {
 		// 	;
 
 		String defaultArguments = ""
-			+ "-test /dfs/THUCNews " 
-			// + "-test /sharenvme/usershome/hyx/data/THUCNews "
-			+ "-l /sharenvme/usershome/hyx/THUCTC/my_novel_model "
-			+ "-d2 1.0 "
+			+ "-test /dfs/THUCNews "
+			+ "-l " + modelDir + " "
+			+ "-d2 " + d2 + " "
 			;
 		
 		// 初始化
@@ -114,7 +113,22 @@ public class Demo {
 	}
 	
 	public static void main (String args[]) {
-		runTrainAndTest();
+		if (args.length < 2) {
+			System.err.println("Usage: <modelDir> <d2>");
+			System.exit(1);
+		}
+		String modelDir = args[0];
+
+		double d2;
+        try {
+            d2 = Double.parseDouble(args[1]);
+        } catch (NumberFormatException e) {
+            System.err.println("The second parameter must be between [0, 1], for example 0.3");
+            System.exit(1);
+            return;
+        }
+
+		runTrainAndTest(modelDir, d2);
 		// runLoadModelAndUse();
 		// AddFilesManuallyAndTrain();
 	}
